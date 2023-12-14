@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauwe piste
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Surface Plane
  
 </details>
 
@@ -39,8 +39,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.starbucks.nl/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Startpagina Starbucks  
+  <img src="readme-images/startpaginastarbucks.jpg" width="375px" alt="Startpagina Starbucks">
+  <img src="readme-images/startpaginastarbucksfoto.png" width="375px" alt="Startpagina Starbucks Foto">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
