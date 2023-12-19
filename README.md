@@ -124,13 +124,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  I.v.m zieke vader moet ik heel veel inhalen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | student 1      | student 2          | student 3    | student 4        | Aishani
+  | ---            | ---                | ---          | ---              | ---
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    | Hoe kan ik de toegankelijkheidstest zelf doen?
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -141,7 +142,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 1
   - punt 2
   - nog een punt
-- ...
+  - ...
+  - punt 1. Ik heb aan de studentassistent gevraagd hoe ik de toegankelijkheidstest zelf kan doen. 
+    Dit heeft hij mij uitgelegd, dus zal ik dit zelf inhalen.
 
 </details>
 
