@@ -44,8 +44,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/startpaginastarbucksfoto.png" width="375px" alt="Startpagina Starbucks Foto">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Starbucks Menu 
+  <img src="readme-images/menupagina.jpg" width="375px" alt="Menu Pagina">
+  <img src="readme-images/menupaginafoto.jpg" width="375px" alt="Menu Pagina Foto">
  
 </details>
 

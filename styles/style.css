@@ -29,3 +29,15 @@
 
 /* jouw code */
 
+/* alle foto's */
+header img{
+	width: 50%;
+}
+main img {
+	max-width: 100%; 
+	height: auto;
+}
+
+
+
+/* dit is voor de 4 boxen onderin -> box-shadow: 0 0.2rem 0.8rem 0.1rem hsla(0,0%,42.4%,.11), 0 0.1rem 0.1rem 
