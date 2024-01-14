@@ -38,6 +38,11 @@ main img {
 	height: auto;
 }
 
-
+/* font titel */
+li:nth-of-type(2) h2 {
+	/* jouw code hier */
+	font-family: 'open-sans', 'sans-serif';
+	font-size:3em;
+}
 
 /* dit is voor de 4 boxen onderin -> box-shadow: 0 0.2rem 0.8rem 0.1rem hsla(0,0%,42.4%,.11), 0 0.1rem 0.1rem 

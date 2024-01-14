@@ -174,16 +174,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb gewerkt aan mijn menu, de achtergrond en de afbeeldingen. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1      | student 2          | student 3    | Aishani          |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | en ik dit    | Is het mogelijk  |
+  | en dat ook nog | dit als er tijd is | nog een punt | die knopjes op de|
+  | ...            | ...                | ...          | afbeelding te    |
+                                                       | krijgen?         |
 
 
   ### Verslag van meeting
@@ -193,6 +195,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 2
   - nog een punt
   - ...
+  - punt 1 Ik heb aan de studentassistent gevraagd of het mogelijk is de buttons, zoals op de website, op de afbeelding te krijgen. Dit heeft hij mij 'online' voorgedaan. Toen heb ik het gecodeerd in mijn code. 
+  Vervolgens kreeg ik het probleem dat wanneer je de menu opende kwam het achter de afbeelding, dat heb ik daarna veranderd m.b.v. de z-index. 
+  <img src="readme-images/buttononderafbeelding.png" width="375px" alt="screenshot van de buttons onder de afbeelding op de pagina">
+  <img src="readme-images/buttonopafbeelding.png" width="375px" alt="screenshot van de buttons op de afbeelding op de pagina">
+
+  Nadat de buttons op de afbeelding waren, bleef er een wit stukje tussen de afbeeldingen, zoals je hier zit:
+  <img src="readme-images/buttonopafbeelding.png" width="375px" alt="screenshot van een wit stukje tussen de afbeeldingen">
+  Door de gehele section dezelfde kleur te geven als de afbeelding, verdween het witte stukje.
+  <img src="readme-images/zonderwitruimte.png" width="375px" alt="screenshot van verdwene wit stukje tussen de afbeeldingen">
+
+
 
 </details>
 
@@ -235,7 +248,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1. https://www.w3schools.com/
-  2. bron 2
+  2. bron 2. https://imagecolorpicker.com/
   3. ...
 
 </details>
