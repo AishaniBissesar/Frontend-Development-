@@ -11,7 +11,7 @@
 
 
 /*********************/
-/* CUSTOM PROPERTIES */
+/* CUSTOM PROPERTIES (alle kleurn fonts)*/
 /*********************/
 :root {
 	/* startje */
@@ -30,6 +30,30 @@
 /* jouw code */
 
 /***************/
+/* LETTERTYPES */
+/***************/
+@font-face {
+    font-family: 'SoDoSansRegular';
+    src: local('SoDoSans'), url('../fonts/SoDoSans-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SoDoSansSemiBold';
+    src: local('SoDoSans'), url('../fonts/SoDoSans-SemiBold3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SoDoSansBold';
+    src: local('SoDoSans'), url('../fonts/SoDoSans-Bold3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***************/
 /* ALLE FOTO'S */
 /***************/
 
@@ -37,15 +61,15 @@ header {
     display:flex;
     gap: 10em;
     position: relative;
-}
-
-header img{
-	width: 50%;
-    position: absolute;
     top: 0.2em;
     left: 0.9em;
     padding: 0.1em;
     margin:0.1em;
+}
+
+header h1 img{
+	width: 200%;
+    
 }
 
 main img {
@@ -80,10 +104,14 @@ header h1 img {
 /* FONT TITEL */
 /**************/
 body main section:nth-of-type(2) h2 {
-	font-family: 'open-sans', 'sans-serif';
+	/* font-family: 'open-sans', 'sans-serif'; */
 	font-size:1.5em;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family:'SoDoSansBold';
 }
 
 /********/
@@ -94,15 +122,15 @@ body {
     background-color:var(--color-background);
     margin: 0;
 
-    font-family:avenir, sans-serif ;
+    /* font-family:avenir, sans-serif ; */
   }
 
-  header {
+header {
       display: flex;
       justify-content:space-around;
       height: 30%;
       align-items:center;
-  }
+}
   
 header > button {
     z-index: 100;

@@ -73,7 +73,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschetsfed.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownschetsfeddynamischdeel.jpg" width="375px" alt="breakdown van het dynamische deel het menu">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -185,7 +185,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | Is het mogelijk  |
   | en dat ook nog | dit als er tijd is | nog een punt | die knopjes op de|
   | ...            | ...                | ...          | afbeelding te    |
-                                                       | krijgen?         |
+  |                |                    |              | krijgen?         |
 
 
   ### Verslag van meeting
