@@ -60,6 +60,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  De headings hebben een logische structuur, ze hebben eerst h2's en dan h3's. De kopjes geven goed aan waar het stuk tekst er onder over gaat. Doordat de kopjes het goed aangeven, geven de linkjes ook goed aan waar ze naar toe gaan. 
+  De screenreader gaat goed. 
+  Zonder rood en groen, is de website nog steeds goed leesbaar en ziet het er visueel ook duidelijk uit.
+  Met de blurred vision filter; is alles best goed te lezen, omdat de achtergrond wit is.
+  Met de reduced contrast filter; is de tekst wel goed te lezen, 1 afbeelding is alleen iets minder zichtbaar. 
+  Met de achromatopsia (no color), tritanopia (no blue), protanopia (no red) en deuteranopia (no green) filters; is alles nog goed leesbaar.
+  Doormiddel van de WCAG checklist kwam ik achter de volgende dingen:
+  Er worden wel wat engelse termen gebruikt op de website, maar dit is vooral voor namen van hun eigen drankjes, het zijn geen lastige woorden. De kopjes en linkjes geven beide zonder, maar vooral ook met elkaar goed aan waar het over gaat. Wanneer je met een tab over de website gaat, is de focus kleur groen, dezelfde kleur die vaker op de website terug komt. Het past dus goed in de layout.
+  Op de mobiel is website ook goed toegankelijk. Het beeld kan gedraaid worden. De tekst, knopjes en linkjes zijn goed zichtbaar en groot genoeg om niet per ongeluk om andere dingen te klikken.
+  De headings h2 en h3 komen een aantal keer voor en er is geen h1. Het is wel in de goede volgorde gebruikt.
+  De 'lists' worden gebruikt in het menu.
+  De afbeeldingen passsen bij de tekst en hebben de juiste alternatieve teksten.
+  Wat mij opviel is dat de website geen darkmode heeft en de high-contrast niet wordt toegepast. Bij sommige kleuren zijn de 'focus' state op de buttons die op de afbeelding staan minder goed zichtbaar. 
+  Animaties worden eigenlijk alleen kort gebruikt wanneer je op een button klikt.
+  De contrast is goed, omdat er voornamelijk een witte achtergrond is.
+
 </details>
 
 
