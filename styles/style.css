@@ -17,7 +17,285 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--p-color: #6c6c6c;
+    --button-color: #008248;
 }
+
+/***************/
+/* LETTERTYPES */
+/***************/
+@font-face {
+    font-family: 'SoDoSansRegular';
+    src: local('SoDoSans'), url('../fonts/SoDoSans-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SoDoSansSemiBold';
+    src: local('SoDoSans'), url('../fonts/SoDoSans-SemiBold3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SoDoSansBold';
+    src: local('SoDoSans'), url('../fonts/SoDoSans-Bold3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************/
+/* ALLE FOTO'S */
+/***************/
+
+header {
+    display:flex;
+    gap: 10em;
+    position: relative;
+    top: 0.2em;
+    left: 0.9em;
+    padding: 0.1em;
+    margin:0.1em;
+}
+
+header h1 img{
+	width: 200%;
+}
+
+main img {
+	max-width: 100%; 
+	height: auto;
+    position: relative;
+}
+
+main img section:nth-of-type(1) { 
+    position: absolute;
+    top: 100em;
+}
+
+/************/
+/* HET LOGO */
+/************/
+header h1 { 
+    margin: 0;
+    padding:0;
+}
+    
+header h1 img {
+    width: 30px;
+}
+
+/***************/
+/* MENU BUTTON */
+/***************/
+
+header button {
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    right: 3em;
+}
+
+/********/
+/* MENU */
+/********/
+body main {
+    color:var(--color-text);
+    background-color:var(--color-background);
+    margin: 0;
+}
+
+header {
+      display: flex;
+      justify-content:space-around;
+      height: 30%;
+      align-items:center;
+}
+  
+header > button {
+    z-index: 100;
+    background:none; 
+    border:none;
+    height: 3em;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 251, 245);
+
+    transform:translateX(-100%);
+
+    transition-duration:.3s;
+    z-index: 999;
+}
+
+header nav.open {
+    transform:translateX(0%);
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    border: none;
+    height: 4em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:var(---color-text);
+    font-family: 'SoDoSansRegular';
+}
+
+@media (min-width:40em) {
+	header{
+		display:block;
+	}
+
+	header button {
+		display: none;
+	}
+
+	nav {
+		position:sticky;
+		background-color: pink;
+	}
+
+	ul {
+		display:flex;
+		gap:1em;
+	}
+
+	li {
+		flex-grow: 1;
+	}
+}
+
+/*******************************/
+/* BESTEL NU & LOCATIE BUTTONS */
+/*******************************/
+main section:first-of-type {
+    position: relative;
+}
+
+main section:first-of-type ul {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5em;
+    flex-direction: column;
+	padding: 0;
+	width: fit-content;
+	margin-right: auto;
+	margin-left: auto;
+    position: absolute;
+    bottom: 0;
+    left: 3em;
+}
+
+main section:first-of-type ul li {
+	flex-grow: 1;
+	background-color: none;
+	padding: .5em;
+	text-align: center;
+	display: inline-block;
+	width: fit-content;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+main section:first-of-type ul li a{
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+    font-family: 'SoDoSansRegular';
+}
+
+/************************************/
+/** SECTION 2: HANDGEMAAKTE KOFFIE **/
+/************************************/
+body main section:nth-of-type(2) h2 {
+    padding-left: 1em;
+    padding-right: 1em; 
+    font-family: 'SoDoSansRegular' ;
+}
+
+body main section:nth-of-type(2) p {
+    font-family: 'SoDoSansRegular';
+    color: var(--p-color); 
+    padding-left: 1em;
+    padding-right: 1em; 
+}
+
+/************************************/
+/** SECTION 3: ONTDEK ONZE DRANKEN **/
+/************************************/
+body main section:nth-of-type(3) {
+    padding-left: 1em;
+    padding-right: 1em; 
+}
+
+body main section:nth-of-type(3) h2 {
+	font-size:1.5em;
+    margin: 0;
+    padding: 0;
+    font-family:'SoDoSansBold';
+}
+
+body main section:nth-of-type(3) p>span {
+    font-family:'SoDoSansSemiBold';
+    color:var(--color-text);
+}
+
+body main section:nth-of-type(3) p {
+    font-family:'SoDoSansRegular';
+    color:var(--p-color);    
+}
+
+body main section:nth-of-type(3) button {
+    color:var(--button-color);
+	text-decoration: none;
+    border-radius: 200px;
+    background-color:var(--color-background);
+    border: 1px solid var(--button-color);
+    text-align: center;
+    padding: .5em;
+    font-family: 'SoDoSansSemiBold';
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
