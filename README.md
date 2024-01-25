@@ -265,6 +265,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. bron 1. https://www.w3schools.com/
   2. bron 2. https://imagecolorpicker.com/
-  3. ...
+  3. bron 3. https://www.flaticon.com/ 
 
 </details>

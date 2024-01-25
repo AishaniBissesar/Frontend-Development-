@@ -204,6 +204,22 @@ main section:first-of-type {
     position: relative;
 }
 
+main section:first-of-type h2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5em;
+    flex-direction: column;
+	padding: 0;
+	width: fit-content;
+	margin-right: auto;
+	margin-left: auto;
+    position: absolute;
+    bottom: 0;
+    left: 3em;
+	color:var(--color-background);
+	bottom:.999em;
+}
+
 main section:first-of-type ul {
 	display: flex;
 	justify-content: space-between;
@@ -287,6 +303,81 @@ body main section:nth-of-type(3) button {
     font-family: 'SoDoSansSemiBold';
 }
 
+/***************************/
+/** SECTION 4: ALLERGENEN **/
+/***************************/
+
+body main section:nth-of-type(4) article {
+    border: 1px #5f5f5f;
+    padding: 10px;
+    box-shadow: 0 0.2rem 0.8rem 0.1rem #c1c1c1, 0 0.1rem 0.1rem; 
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #f4f4f4;
+}
+
+body main section:nth-of-type(4) article h3 {
+    font-family: 'SoDoSansRegular';
+}
+
+body main section:nth-of-type(4) article p {
+    font-family:'SoDoSansRegular';
+    color:var(--p-color);  
+}
+
+body main section:nth-of-type(4) button {
+    color:var(--button-color);
+	text-decoration: none;
+    border-radius: 200px;
+    background-color:var(--color-background);
+    border: 1px solid var(--button-color);
+    text-align: center;
+    padding: .5em;
+    font-family: 'SoDoSansSemiBold';
+}
+
+/************/
+/** FOOTER **/
+/************/
+footer {
+    background-color:#ffffff;
+}
+
+footer h2 {
+    font-family: 'SoDoSansRegular';
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color:var(--p-color);
+	text-decoration: none;
+    font-family: 'SoDoSansRegular';
+}
+
+footer img {
+    padding-left: 1em;
+    padding-right: 1em; 
+    height:2em;
+    position: relative;
+    padding-left: 2em;
+}
+
+footer img>span {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-right:-600%;
+}
+
+footer p {
+    font-family: 'SoDoSansRegular';
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 
 
