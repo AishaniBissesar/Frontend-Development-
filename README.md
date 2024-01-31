@@ -251,7 +251,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Korte omschrijving met plaatjes:
 
   Ik moest heel veel opzoeken, maar wat ik heb geleerd is dat je gewoon moet uit proberen. Voorheen deed ik dat niet, waardoor ik een bepaalde 'angst' had.
 
@@ -264,7 +264,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Korte omschrijving met plaatjes:
 
   De lettertypes was eerst heel lastig. Het lukte mij niet om het vanuit de starbucks website in mijn css te zetten. Na een hele les op school er aan te zitten samen met de studentassistent, is het uiteindelijk gelukt.
 
@@ -290,6 +290,3 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. bron 3. https://www.flaticon.com/ 
 
 </details>
-
-/* <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top"> */
-/* <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer"> */
