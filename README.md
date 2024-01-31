@@ -254,16 +254,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Korte omschrijving met plaatjes
 
   Ik moest heel veel opzoeken, maar wat ik heb geleerd is dat je gewoon moet uit proberen. Voorheen deed ik dat niet, waardoor ik een bepaalde 'angst' had.
+
   Een andere 'angst' was dat het leek alsof er heel veel moest gebeuren voor bijvoorbeeld een button, waardoor ik een beetje in paniek raakte en niet wist waar te beginnen. Een goede tip van de studentassistent was om het gewoon stap voor stap te doen. Focus op 1 ding, fix dat eerst en daarna de volgende stap.
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
+  Er bleef een wit stukje tussen de afbeeldingen, zoals je hier zit:
+  <img src="readme-images/buttonopafbeelding.png" width="375px" alt="screenshot van een wit stukje tussen de afbeeldingen">
+  door de gehele section dezelfde kleur te geven als de afbeelding (rood), verdween het witte stukje.
+  <img src="readme-images/zonderwitruimte.png" width="375px" alt="screenshot van verdwene wit stukje tussen de afbeeldingen">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  De lettertypes was eerst heel lastig. Het lukte mij niet om het vanuit de starbucks website in mijn css te zetten. Na een hele les er aan te zitten samen met de studentassistent, is het uiteindelijk gelukt.
+  De lettertypes was eerst heel lastig. Het lukte mij niet om het vanuit de starbucks website in mijn css te zetten. Na een hele les op school er aan te zitten samen met de studentassistent, is het uiteindelijk gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Ik heb aan de studentassistent gevraagd of het mogelijk was de buttons, zoals op de website, op de afbeelding te krijgen. Dit heeft hij mij 'online' voorgedaan. Toen heb ik het gecodeerd in mijn code. Vervolgens kreeg ik het probleem dat wanneer je de menu opende het achter de afbeelding kwam, dat heb ik daarna veranderd met behulp van de z-index.
+  <img src="readme-images/screenshotverschilbestelnuenlocatie.png" width="375px" alt="screenshot verschil bestel nu en locatie">
 </details>
 
 
@@ -284,3 +290,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. bron 3. https://www.flaticon.com/ 
 
 </details>
+
+/* <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top"> */
+/* <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer"> */
