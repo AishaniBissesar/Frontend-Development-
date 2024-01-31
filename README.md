@@ -235,19 +235,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/scherm­afbeelding.pag1.part1" width="375px" alt="scherm­afbeelding pagina 1 part 1">
-  <img src="readme-images/scherm­afbeelding.pag1.part2" width="375px" alt="scherm­afbeelding pagina 1 part 2">
-  <img src="readme-images/scherm­afbeelding.pag1.part3" width="375px" alt="scherm­afbeelding pagina 1 part 3">
-  <img src="readme-images/scherm­afbeelding.pag1.part4" width="375px" alt="scherm­afbeelding pagina 1 part 4">
-  <img src="readme-images/scherm­afbeelding.pag1.part5" width="375px" alt="scherm­afbeelding pagina 1 part 5">
-  <img src="readme-images/scherm­afbeelding.pag1.part6" width="375px" alt="scherm­afbeelding pagina 1 part 6">
-  <img src="readme-images/scherm­afbeelding.pag1.part7" width="375px" alt="scherm­afbeelding pagina 1 part 7">
-  <img src="readme-images/scherm­afbeeldingmenu" width="375px" alt="scherm­afbeelding menu">
-  <img src="readme-images/scherm­afbeelding.pag2.part1" width="375px" alt="scherm­afbeelding pagina 2 part 1">
-  <img src="readme-images/scherm­afbeelding.pag2.part2" width="375px" alt="scherm­afbeelding pagina 2 part 2">
-  <img src="readme-images/scherm­afbeelding.pag2.part3" width="375px" alt="scherm­afbeelding pagina 2 part 3">
-  <img src="readme-images/scherm­afbeelding.pag2.part4" width="375px" alt="scherm­afbeelding pagina 2 part 4">
-  <img src="readme-images/scherm­afbeelding.pag2.part5" width="375px" alt="scherm­afbeelding pagina 2 part 5">
+  <img src="readme-images/scherm­afbeelding.pag1.part1.png" width="375px" alt="scherm­afbeelding pagina 1 part 1">
+  <img src="readme-images/scherm­afbeelding.pag1.part2.png" width="375px" alt="scherm­afbeelding pagina 1 part 2">
+  <img src="readme-images/scherm­afbeelding.pag1.part3.png" width="375px" alt="scherm­afbeelding pagina 1 part 3">
+  <img src="readme-images/scherm­afbeelding.pag1.part4.png" width="375px" alt="scherm­afbeelding pagina 1 part 4">
+  <img src="readme-images/scherm­afbeelding.pag1.part5.png" width="375px" alt="scherm­afbeelding pagina 1 part 5">
+  <img src="readme-images/scherm­afbeelding.pag1.part6.png" width="375px" alt="scherm­afbeelding pagina 1 part 6">
+  <img src="readme-images/scherm­afbeelding.pag1.part7.png" width="375px" alt="scherm­afbeelding pagina 1 part 7">
+  <img src="readme-images/scherm­afbeeldingmenu.png" width="375px" alt="scherm­afbeelding menu">
+  <img src="readme-images/scherm­afbeelding.pag2.part1.png" width="375px" alt="scherm­afbeelding pagina 2 part 1">
+  <img src="readme-images/scherm­afbeelding.pag2.part2.png" width="375px" alt="scherm­afbeelding pagina 2 part 2">
+  <img src="readme-images/scherm­afbeelding.pag2.part3.png" width="375px" alt="scherm­afbeelding pagina 2 part 3">
+  <img src="readme-images/scherm­afbeelding.pag2.part4.png" width="375px" alt="scherm­afbeelding pagina 2 part 4">
+  <img src="readme-images/scherm­afbeelding.pag2.part5.png" width="375px" alt="scherm­afbeelding pagina 2 part 5">
 
 
   ### Dit ging goed/Heb ik geleerd: 
