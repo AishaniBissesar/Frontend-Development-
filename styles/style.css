@@ -169,7 +169,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color:var(---color-text);
+    color: #111;
     font-family: 'SoDoSansRegular';
 }
 
@@ -197,9 +197,9 @@ header nav ul li a {
 	}
 }
 
-/*******************************/
-/* BESTEL NU & LOCATIE BUTTONS */
-/*******************************/
+/*************************************/
+/* MENU, BESTEL NU & LOCATIE BUTTONS */
+/*************************************/
 main section:first-of-type {
     position: relative;
 }
@@ -215,9 +215,10 @@ main section:first-of-type h2 {
 	margin-left: auto;
     position: absolute;
     bottom: 0;
-    left: 3em;
+    left: 2em;
 	color:var(--color-background);
-	bottom:.999em;
+	bottom:5em;
+	font-family: 'SoDoSansRegular';
 }
 
 main section:first-of-type ul {
@@ -235,8 +236,7 @@ main section:first-of-type ul {
 }
 
 main section:first-of-type ul li {
-	flex-grow: 1;
-	background-color: none;
+	flex-grow: 1; 
 	padding: .5em;
 	text-align: center;
 	display: inline-block;
@@ -257,7 +257,7 @@ main section:first-of-type ul li a{
 body main section:nth-of-type(2) h2 {
     padding-left: 1em;
     padding-right: 1em; 
-    font-family: 'SoDoSansRegular' ;
+    font-family: 'SoDoSansBold' ;
 }
 
 body main section:nth-of-type(2) p {
@@ -265,21 +265,34 @@ body main section:nth-of-type(2) p {
     color: var(--p-color); 
     padding-left: 1em;
     padding-right: 1em; 
+	margin-left: 0.5em;
 }
 
 /************************************/
 /** SECTION 3: ONTDEK ONZE DRANKEN **/
 /************************************/
+body main section:nth-of-type(3) article {
+    border: 1px #5f5f5f;
+    padding: 10px;
+    box-shadow: 0 0.2rem 0.8rem 0.1rem #c1c1c1, 0 0.1rem 0.1rem; 
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #f4f4f4;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
 body main section:nth-of-type(3) {
     padding-left: 1em;
     padding-right: 1em; 
 }
 
-body main section:nth-of-type(3) h2 {
+body main section:nth-of-type(3) article h3 {
 	font-size:1.5em;
     margin: 0;
     padding: 0;
-    font-family:'SoDoSansBold';
+    font-family:'SoDoSansRegular';
+	margin-left: 0.3em;
 }
 
 body main section:nth-of-type(3) p>span {
@@ -290,18 +303,28 @@ body main section:nth-of-type(3) p>span {
 body main section:nth-of-type(3) p {
     font-family:'SoDoSansRegular';
     color:var(--p-color);    
+	margin-left: 0.5em;
 }
 
-body main section:nth-of-type(3) button {
-    color:var(--button-color);
-	text-decoration: none;
-    border-radius: 200px;
-    background-color:var(--color-background);
+body main section:nth-of-type(3) ul {
+    border-radius: 50px;
     border: 1px solid var(--button-color);
     text-align: center;
     padding: .5em;
     font-family: 'SoDoSansSemiBold';
+    list-style: none;
+    width: 100px;
 }
+
+body main section:nth-of-type(3) ul li a {
+    color: var(--button-color);
+	text-decoration: none;
+    text-align: center;
+    font-family: 'SoDoSansSemiBold';
+    list-style: none;
+    padding: 0,5em;
+}
+
 
 /***************************/
 /** SECTION 4: ALLERGENEN **/
@@ -316,24 +339,32 @@ body main section:nth-of-type(4) article {
     background-color: #f4f4f4;
 }
 
-body main section:nth-of-type(4) article h3 {
-    font-family: 'SoDoSansRegular';
+body main section:nth-of-type(4) h3 {
+    font-family: 'SoDoSansSemiBold';
+	margin-left: 1em;
 }
 
-body main section:nth-of-type(4) article p {
+body main section:nth-of-type(4) p {
     font-family:'SoDoSansRegular';
     color:var(--p-color);  
+	margin-left: 1em;
 }
 
-body main section:nth-of-type(4) button {
-    color:var(--button-color);
+body main section:nth-of-type(4) ul {
+	margin-left: 0.1em;
+	padding: 1px;
+}
+
+body main section:nth-of-type(4) ul li {
 	text-decoration: none;
-    border-radius: 200px;
-    background-color:var(--color-background);
-    border: 1px solid var(--button-color);
-    text-align: center;
-    padding: .5em;
-    font-family: 'SoDoSansSemiBold';
+    padding: 1px;
+    font-family: 'SoDoSansRegular';
+	list-style: none;
+	margin: 1em;
+}
+
+body main section:nth-of-type(4) ul li a {
+	color:var(--button-color);
 }
 
 /************/
@@ -345,6 +376,7 @@ footer {
 
 footer h2 {
     font-family: 'SoDoSansRegular';
+	padding-left: 1.5em;
 }
 
 footer ul li {
@@ -358,8 +390,7 @@ footer ul li a {
 }
 
 footer img {
-    padding-left: 1em;
-    padding-right: 1em; 
+    padding-left: 1em; 
     height:2em;
     position: relative;
     padding-left: 2em;
@@ -377,6 +408,7 @@ footer p {
     font-weight: bold;
     padding-left: 1em;
     padding-right: 1em;
+	padding-left: 2em;
 }
 
 

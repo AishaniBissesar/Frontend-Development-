@@ -235,17 +235,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/scherm­afbeelding.pag1.part1" width="375px" alt="scherm­afbeelding pagina 1 part 1">
+  <img src="readme-images/scherm­afbeelding.pag1.part2" width="375px" alt="scherm­afbeelding pagina 1 part 2">
+  <img src="readme-images/scherm­afbeelding.pag1.part3" width="375px" alt="scherm­afbeelding pagina 1 part 3">
+  <img src="readme-images/scherm­afbeelding.pag1.part4" width="375px" alt="scherm­afbeelding pagina 1 part 4">
+  <img src="readme-images/scherm­afbeelding.pag1.part5" width="375px" alt="scherm­afbeelding pagina 1 part 5">
+  <img src="readme-images/scherm­afbeelding.pag1.part6" width="375px" alt="scherm­afbeelding pagina 1 part 6">
+  <img src="readme-images/scherm­afbeelding.pag1.part7" width="375px" alt="scherm­afbeelding pagina 1 part 7">
+  <img src="readme-images/scherm­afbeeldingmenu" width="375px" alt="scherm­afbeelding menu">
+  <img src="readme-images/scherm­afbeelding.pag2.part1" width="375px" alt="scherm­afbeelding pagina 2 part 1">
+  <img src="readme-images/scherm­afbeelding.pag2.part2" width="375px" alt="scherm­afbeelding pagina 2 part 2">
+  <img src="readme-images/scherm­afbeelding.pag2.part3" width="375px" alt="scherm­afbeelding pagina 2 part 3">
+  <img src="readme-images/scherm­afbeelding.pag2.part4" width="375px" alt="scherm­afbeelding pagina 2 part 4">
+  <img src="readme-images/scherm­afbeelding.pag2.part5" width="375px" alt="scherm­afbeelding pagina 2 part 5">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
+  Ik moest heel veel opzoeken, maar wat ik heb geleerd is dat je gewoon moet uit proberen. Voorheen deed ik dat niet, waardoor ik een bepaalde 'angst' had.
+  Een andere 'angst' was dat het leek alsof er heel veel moest gebeuren voor bijvoorbeeld een button, waardoor ik een beetje in paniek raakte en niet wist waar te beginnen. Een goede tip van de studentassistent was om het gewoon stap voor stap te doen. Focus op 1 ding, fix dat eerst en daarna de volgende stap.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+
+  De lettertypes was eerst heel lastig. Het lukte mij niet om het vanuit de starbucks website in mijn css te zetten. Na een hele les er aan te zitten samen met de studentassistent, is het uiteindelijk gelukt.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>

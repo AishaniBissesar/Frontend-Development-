@@ -19,6 +19,8 @@
 	--color-background:#f4f4f4;   
     --p-color: #6c6c6c;
     --button-color: #008248;
+    --link-focused-color: #014c2a;
+    --link-visited-color: #700074;
 }
 
 /***************/
@@ -173,7 +175,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color:var(---color-text);
+    color: #111;
     font-family: 'SoDoSansRegular';
 }
 
@@ -203,7 +205,7 @@ header nav ul li a {
 
 
 /*******************************/
-/* BESTEL NU & LOCATIE BUTTONS */
+/* BESTEL NU & LOCATIE LINKS */
 /*******************************/
 main section:first-of-type {
     position: relative;
@@ -225,7 +227,6 @@ main section:first-of-type ul {
 
 main section:first-of-type ul li {
 	flex-grow: 1;
-	background-color: none;
 	padding: .5em;
 	text-align: center;
 	display: inline-block;
@@ -240,13 +241,34 @@ main section:first-of-type ul li a{
     font-family: 'SoDoSansRegular';
 }
 
+main section:first-of-type ul li a:visited {
+    color:var(--link-visited-color);
+}
+
+main section:first-of-type ul li a:focus {
+    color:var(--link-focused-color);
+}
+
+main section:first-of-type ul li a:hover {
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+    text-underline-offset: 2px;
+}
+
+main section:first-of-type ul li a:active {
+    color:var(--link-active-color);
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+    text-underline-offset: 2px;
+}
+
 /*******************************/
 /** SECTION 2: MEETUP SEIZOEN **/
 /*******************************/
 body main section:nth-of-type(2) h2 {
-    padding-left: 1em;
+    padding-left: 0.6em;
     padding-right: 1em; 
-    font-family: 'SoDoSansRegular' ;
+    font-family: 'SoDoSansRegular';
 }
 
 body main section:nth-of-type(2) p {
@@ -281,15 +303,23 @@ body main section:nth-of-type(3) p {
     color:var(--p-color);    
 }
 
-body main section:nth-of-type(3) button {
-    color:var(--button-color);
-	text-decoration: none;
-    border-radius: 200px;
-    background-color:var(--color-background);
+body main section:nth-of-type(3) ul {
+    border-radius: 50px;
     border: 1px solid var(--button-color);
     text-align: center;
     padding: .5em;
     font-family: 'SoDoSansSemiBold';
+    list-style: none;
+    width: 100px;
+}
+
+body main section:nth-of-type(3) ul li a {
+    color: var(--button-color);
+	text-decoration: none;
+    text-align: center;
+    font-family: 'SoDoSansSemiBold';
+    list-style: none;
+    padding: 0,5em;
 }
 
 /**************************/
@@ -303,6 +333,7 @@ body main section:nth-of-type(4) article {
     margin-left: 1em;
     margin-right: 1em;
     background-color: #f4f4f4;
+    margin-bottom: 1em;
 }
 
 body main section:nth-of-type(4) article h3 {
@@ -314,15 +345,23 @@ body main section:nth-of-type(4) article p {
     color:var(--p-color);  
 }
 
-body main section:nth-of-type(4) button {
-    color:var(--button-color);
-	text-decoration: none;
-    border-radius: 200px;
-    background-color:var(--color-background);
+body main section:nth-of-type(4) ul {
+    border-radius: 50px;
     border: 1px solid var(--button-color);
     text-align: center;
     padding: .5em;
     font-family: 'SoDoSansSemiBold';
+    list-style: none;
+    width: 130px;
+}
+
+body main section:nth-of-type(4) ul li a {
+    color: var(--button-color);
+	text-decoration: none;
+    text-align: center;
+    font-family: 'SoDoSansSemiBold';
+    list-style: none;
+    padding: 0,5em;
 }
 
 /************/
@@ -334,6 +373,7 @@ footer {
 
 footer h2 {
     font-family: 'SoDoSansRegular';
+    padding-left: 1.5em;
 }
 
 footer ul li {
@@ -347,10 +387,9 @@ footer ul li a {
 }
 
 footer img {
-    padding-left: 1em;
-    padding-right: 1em; 
-    height:2em;
+    height: 2em;
     position: relative;
+    padding-left: 1em;
     padding-left: 2em;
 }
 
@@ -366,6 +405,7 @@ footer p {
     font-weight: bold;
     padding-left: 1em;
     padding-right: 1em;
+    padding-left: 2em;
 }
 
 /* dit is voor de 4 boxen onderin -> box-shadow: 0 0.2rem 0.8rem 0.1rem hsla(0,0%,42.4%,.11), 0 0.1rem 0.1rem 
