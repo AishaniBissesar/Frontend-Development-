@@ -103,7 +103,7 @@ main section:nth-of-type(1) {
 /************/
 header h1 { 
     margin: 0;
-    padding:0;
+    padding: 0;
 }
     
 header h1 img {
@@ -177,6 +177,11 @@ header nav ul li a {
     text-decoration: none;
     color: #111;
     font-family: 'SoDoSansRegular';
+}
+
+nav a:hover {
+	color:#008248;
+	transition: 0.3s;
 }
 
 @media (min-width:40em) {
@@ -262,6 +267,10 @@ main section:first-of-type ul li a:active {
     text-underline-offset: 2px;
 }
 
+main section:first-of-type h2.geefstarbuckscadeau {
+    visibility: hidden;
+}
+
 /*******************************/
 /** SECTION 2: MEETUP SEIZOEN **/
 /*******************************/
@@ -336,6 +345,10 @@ body main section:nth-of-type(4) article {
     margin-bottom: 1em;
 }
 
+body main section:nth-of-type(4) h3.embracingsustainability {
+    visibility: hidden;
+}
+
 body main section:nth-of-type(4) article h3 {
     font-family: 'SoDoSansRegular';
 }
@@ -384,6 +397,14 @@ footer ul li a {
     color:var(--p-color);
 	text-decoration: none;
     font-family: 'SoDoSansRegular';
+}
+
+footer section:nth-of-type(4) h2.socialmedia {
+    visibility: hidden;
+}
+
+footer section:nth-of-type(5) h3.regels {
+    visibility: hidden;
 }
 
 footer img {

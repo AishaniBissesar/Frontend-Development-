@@ -177,6 +177,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  De headings hebben een logische structuur. Ze gaan van h1, h2 naar h3. De kopjes geven goed aan wat er onder valt. Door de kopjes en alternatieve teksten geven de linkjes goed aan waar ze naartoe gelinkt zijn.
+  De screenreader gaat goed. 
+  Wanneer je goed focust, is de blurred vision filter goed te lezen.
+  Met de reduced contrast filter is alles goed te zien, dit is verbeterd van de website.
+  Met de achromatopsia (no color), protanopia (no red), deuteranopia (no green) en tritanopia (no blue) is alles goed zichtbaar.
+  Uit de WCAG checklist haal ik:
+  De linkjes geven goed aan waar het over gaat. Mijn HTML heeft geen fouten. Op de mobiel is website ook goed toegankelijk. Het beeld kan gedraaid worden. De tekst, knopjes en linkjes zijn goed zichtbaar en groot genoeg om niet per ongeluk om andere dingen te klikken. De 'lists' worden meerdere keren gebruikt. De afbeeldingen passsen bij de tekst en hebben de juiste alternatieve teksten. High-contrast wordt wel toegepast. De animatie is de menu die open klapt. De contrast is goed, omdat er voornamelijk een witte achtergrond is.
+
+
+
+
 </details>
 
 
