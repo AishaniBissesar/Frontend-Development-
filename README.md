@@ -108,6 +108,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  afwezig i.v.m. vader
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -299,5 +301,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. bron 1. https://www.w3schools.com/
   2. bron 2. https://imagecolorpicker.com/
   3. bron 3. https://www.flaticon.com/ 
+  4. bron 4. studentassistenten
 
 </details>
